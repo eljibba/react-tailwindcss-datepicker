@@ -1,46 +1,11 @@
-# React Tailwindcss Datepicker
+# jibba-tw-datepicker (fork of React Tailwindcss Datepicker)
 
 <p align="center">
     <a href="https://react-tailwindcss-datepicker.vercel.app/" target="_blank">
       <img alt="React Tailwindcss Datepicker" width="100" style="border-radius: 100%;" src="https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/calendar_logo.svg?raw=true">
     </a><br><br>
-    A modern date range picker component for React using Tailwind 3 and dayjs. Alternative to Litepie Datepicker which uses Vuejs.
+    Fixes react tailwindcss datepicker for tailwind v4 and adds more style 
 </p>
-
-<div align="center">
-    
-[![npm version](https://img.shields.io/npm/v/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/react-tailwindcss-datepicker)
-[![npm downloads](https://img.shields.io/npm/dt/react-tailwindcss-datepicker?style=flat-square)](https://www.npmjs.com/package/react-tailwindcss-datepicker)
-    
-</div>
-
-## Contents
-
--   [Features](#features)
--   [Documentation](#documentation)
--   [Installation](#installation)
--   [Simple Usage](#simple-usage)
--   [Theming Options](#theming-options)
--   [Playground](#playground)
--   [Contributing](#contributing)
-
-## Features
-
--   ✅ Theming options
--   ✅ Dark mode
--   ✅ Single Date
--   ✅ Single date use Range
--   ✅ Shortcuts
--   ✅ TypeScript support
--   ✅ Localization(i18n)
--   ✅ Date formatting
--   ✅ Disable specific dates
--   ✅ Minimum Date and Maximum Date
--   ✅ Custom shortcuts
-
-## Documentation
-
-Go to [full documentation](https://react-tailwindcss-datepicker.vercel.app/)
 
 ## Installation
 
@@ -107,44 +72,6 @@ const App = () => {
 export default App;
 ```
 
-## Theming options
-
-**Light Mode**
-
-![Light Mode](https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/Screen_Shot_2022-08-04_at_17.04.09_light.png?raw=true)
-
-**Dark Mode**
-
-![Dark Mode](https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/Screen_Shot_2022-08-04_at_17.04.09_dark.png?raw=true)
-
-**Supported themes**
-![Theme supported](https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/Screen_Shot_2022-08-04_at_17.04.09_theme.png?raw=true)
-
-**Teal themes example**
-![Theme supported](https://raw.githubusercontent.com/onesine/react-tailwindcss-datepicker/master/assets/img/Screen_Shot_2022-08-04_at_17.04.09_teal.png?raw=true)
-
-You can find the demo at [here](https://react-tailwindcss-datepicker.vercel.app/demo)
-
-> **Info**
->
-> 👉 To discover the other possibilities offered by this library, you can consult the
-> [full documentation](https://react-tailwindcss-datepicker.vercel.app/).
-
-## PlayGround
-
-Clone the `master` branch and run commands:
-
-```sh
-# Using npm
-npm install && npm dev
-
-# Using yarn
-yarn install && yarn dev
-
-```
-
-Open a browser and navigate to `http://localhost:8888`
-
 ## Contributing
 
 See
@@ -156,6 +83,7 @@ See
 
 ## Thanks to
 
+-   [React TailwindCSS Datepicker](https://react-tailwindcss-datepicker.vercel.app/)
 -   [Vue Tailwind Datepicker](https://vue-tailwind-datepicker.com/)
 -   [React](https://reactjs.org/)
 -   [Tailwind CSS](https://tailwindcss.com/)
@@ -163,6 +91,6 @@ See
 
 I thank you in advance for your contribution to this project.
 
-## License
+## Original License
 
 [MIT](LICENSE) Licensed. Copyright (c) Lewhe Onesine 2022.
