@@ -2,7 +2,13 @@
 module.exports = {
     content: ["./app/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
     darkMode: "media",
-    theme: {},
+    theme: {
+        extend: {
+            colors: {
+                darkPrimary: "#1d1e20"
+            }
+        }
+    },
     variants: {},
     /* eslint-disable @typescript-eslint/no-require-imports */
     plugins: [require("@tailwindcss/forms")]

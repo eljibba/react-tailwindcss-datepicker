@@ -27,7 +27,7 @@ import {
     nextMonthBy,
     previousMonthBy
 } from "../libs/date";
-import { Period, DatepickerType, ColorKeys, DateType } from "../types";
+import { ColorKeys, DatepickerType, DateType, Period } from "../types";
 
 import Arrow from "./icons/Arrow";
 import VerticalDash from "./VerticalDash";
@@ -110,7 +110,7 @@ const Datepicker = (props: DatepickerType) => {
         if (arrow && div && div.classList.contains("block")) {
             div.classList.remove("block");
             div.classList.remove("translate-y-0");
-            div.classList.remove("opacity-1");
+            div.classList.remove("opacity-[100]");
             div.classList.add("translate-y-4");
             div.classList.add("opacity-0");
             setTimeout(() => {
@@ -397,7 +397,7 @@ const Datepicker = (props: DatepickerType) => {
                 <div className={popupClassNameOverload} ref={calendarContainerRef}>
                     <Arrow ref={arrowRef} />
 
-                    <div className="mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-slate-800 dark:text-white dark:border-slate-600 rounded-lg">
+                    <div className="datepicker-main mt-2.5 shadow-sm border border-gray-300 px-1 py-0.5 bg-white dark:bg-darkPrimary dark:text-white dark:border-slate-600 rounded-lg">
                         <div className="flex flex-col lg:flex-row py-2">
                             {showShortcuts && <Shortcuts />}
 

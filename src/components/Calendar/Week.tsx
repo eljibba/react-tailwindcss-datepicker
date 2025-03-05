@@ -44,7 +44,7 @@ const Week = () => {
                         shortString(
                             dateFormat(
                                 new Date(2022, 10, 6 + item + startDateModifier),
-                                "ddd",
+                                "dd",
                                 i18n
                             ) || ""
                         )

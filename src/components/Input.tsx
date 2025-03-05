@@ -64,7 +64,7 @@ const Input = (e: Props) => {
         const ring =
             RING_COLOR["second-focus"][primaryColor as keyof (typeof RING_COLOR)["second-focus"]];
 
-        const defaultInputClassName = `relative transition-all duration-300 py-2.5 pl-4 pr-14 w-full border-gray-300 dark:bg-slate-800 dark:text-white/80 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-gray-400 bg-white focus:ring disabled:opacity-40 disabled:cursor-not-allowed ${border} ${ring}`;
+        const defaultInputClassName = `relative transition-all duration-300 py-2.5 pl-4 pr-14 w-full border-gray-300 dark:bg-darkPrimary dark:text-white/80 dark:border-slate-600 rounded-lg tracking-wide font-light text-sm placeholder-gray-400 bg-white focus:ring disabled:opacity-40 disabled:cursor-not-allowed ${border} ${ring}`;
 
         return typeof inputClassName === "function"
             ? inputClassName(defaultInputClassName)
@@ -260,7 +260,7 @@ const Input = (e: Props) => {
                     div.classList.remove("translate-y-4");
                     div.classList.remove("opacity-0");
                     div.classList.add("translate-y-0");
-                    div.classList.add("opacity-1");
+                    div.classList.add("opacity-[100]");
                 }, 1);
             }
         }
