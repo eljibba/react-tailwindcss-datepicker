@@ -1,6 +1,6 @@
 {
     "name": "jibba-tw-datepicker",
-    "version": "1.7.4",
+    "version": "1.7.5",
     "description": "Fork of react-tailwindcss-datepicker to improve styles and fix bugs",
     "main": "dist/index.cjs.js",
     "module": "dist/index.esm.js",
